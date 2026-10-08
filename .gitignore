@@ -1,0 +1,44 @@
+# Virtual Environments
+env/
+venv/
+.env
+
+# Data & Audio Files
+data/
+nptel/
+nptel-*/
+nptel-pure/
+speech_samples/
+temp_audio_streamlit_upload.wav
+*.wav
+*.mp3
+*.m4a
+*.flac
+
+# Outputs & Metrics
+evaluation_results.xlsx
+metadata.json
+
+# Standard Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
